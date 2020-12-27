@@ -10,7 +10,7 @@ import AVFoundation
 
 class ViewController: UIViewController {
     
-    
+    let sounds = ["bird","kwa","osel","pig","woow"]
     var player = AVAudioPlayer()
     
 
@@ -31,11 +31,7 @@ class ViewController: UIViewController {
     
     override func motionEnded(_ motion: UIEvent.EventSubtype, with event: UIEvent?) {
         if event?.subtype == UIEvent.EventSubtype.motionShake{
-            let sounds = ["bird","kwa","osel","pig","woow"]
-            
             let ramdomNumber = Int(arc4random_uniform(UInt32(sounds.count)))
-           
-           
             guard let path = Bundle.main.path(forResource: sounds[ramdomNumber], ofType: "mp3") else {return}
             print(path)
             let url = URL(fileURLWithPath: path)
@@ -54,8 +50,8 @@ class ViewController: UIViewController {
         
         if let swipeGesture = gesture as? UISwipeGestureRecognizer {
             switch swipeGesture.direction {
-            case .left:print("swipe left")
-            case .right:print("swipe right")
+            case .left:player.stop()
+            case .right:player.play()
             default:
                 break
             }
