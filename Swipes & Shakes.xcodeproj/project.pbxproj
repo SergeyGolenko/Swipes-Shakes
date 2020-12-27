@@ -13,6 +13,10 @@
 		2C9ABC9F2599130D00E96D4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C9ABC9D2599130D00E96D4A /* Main.storyboard */; };
 		2C9ABCA12599131000E96D4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C9ABCA02599131000E96D4A /* Assets.xcassets */; };
 		2C9ABCA42599131000E96D4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C9ABCA22599131000E96D4A /* LaunchScreen.storyboard */; };
+		2C9ABCD3259928B500E96D4A /* pig.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2C9ABCCF259928B500E96D4A /* pig.mp3 */; };
+		2C9ABCD4259928B500E96D4A /* osel.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2C9ABCD0259928B500E96D4A /* osel.mp3 */; };
+		2C9ABCD5259928B500E96D4A /* woow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2C9ABCD1259928B500E96D4A /* woow.mp3 */; };
+		2C9ABCD6259928B500E96D4A /* bird.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2C9ABCD2259928B500E96D4A /* bird.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		2C9ABCA02599131000E96D4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C9ABCA32599131000E96D4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C9ABCA52599131000E96D4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C9ABCCF259928B500E96D4A /* pig.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pig.mp3; sourceTree = "<group>"; };
+		2C9ABCD0259928B500E96D4A /* osel.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = osel.mp3; sourceTree = "<group>"; };
+		2C9ABCD1259928B500E96D4A /* woow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = woow.mp3; sourceTree = "<group>"; };
+		2C9ABCD2259928B500E96D4A /* bird.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bird.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +67,24 @@
 				2C9ABC972599130D00E96D4A /* AppDelegate.swift */,
 				2C9ABC992599130D00E96D4A /* SceneDelegate.swift */,
 				2C9ABC9B2599130D00E96D4A /*  ViewController.swift */,
+				2C9ABCCE259928B500E96D4A /* sounds */,
 				2C9ABC9D2599130D00E96D4A /* Main.storyboard */,
 				2C9ABCA02599131000E96D4A /* Assets.xcassets */,
 				2C9ABCA22599131000E96D4A /* LaunchScreen.storyboard */,
 				2C9ABCA52599131000E96D4A /* Info.plist */,
 			);
 			path = "Swipes & Shakes";
+			sourceTree = "<group>";
+		};
+		2C9ABCCE259928B500E96D4A /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				2C9ABCCF259928B500E96D4A /* pig.mp3 */,
+				2C9ABCD0259928B500E96D4A /* osel.mp3 */,
+				2C9ABCD1259928B500E96D4A /* woow.mp3 */,
+				2C9ABCD2259928B500E96D4A /* bird.mp3 */,
+			);
+			path = sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +145,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C9ABCA42599131000E96D4A /* LaunchScreen.storyboard in Resources */,
+				2C9ABCD6259928B500E96D4A /* bird.mp3 in Resources */,
+				2C9ABCD4259928B500E96D4A /* osel.mp3 in Resources */,
+				2C9ABCD5259928B500E96D4A /* woow.mp3 in Resources */,
+				2C9ABCD3259928B500E96D4A /* pig.mp3 in Resources */,
 				2C9ABCA12599131000E96D4A /* Assets.xcassets in Resources */,
 				2C9ABC9F2599130D00E96D4A /* Main.storyboard in Resources */,
 			);
